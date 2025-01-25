@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Item Calculator</title>
+  <style>
+    body { 
+      font-family: Arial, sans-serif; 
+      padding: 10px; 
+      text-align: center;
+    }
+    h1 { 
+      font-size: 24px; 
+      margin-bottom: 20px; 
+    }
+    #average {
+      font-size: 36px; 
+      font-weight: bold; 
+      color: #ff5722; /* 평균 강조 색상 */
+      margin: 20px 0;
+    }
+    #total {
+      font-size: 18px;
+      color: #333;
+    }
+    button { 
+      margin: 10px 0; 
+      padding: 10px 20px; 
+      font-size: 16px; 
+      background-color: #4caf50; 
+      color: white; 
+      border: none; 
+      border-radius: 5px; 
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1>Item Data Calculator</h1>
+  <button id="calculate">Calculate</button>
+  <div id="output">
+    <div id="average"></div>
+    <div id="total"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
